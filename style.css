@@ -1,0 +1,49 @@
+div{
+    padding: 5px;
+    text-align: center;
+}
+
+td{
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+}
+
+tr{
+    background-image: linear-gradient(rgb(0, 217, 255),rgb(0, 119, 255));
+    color: white;
+}
+
+th{
+    text-align: center;
+}
+
+#form{
+    background-image: linear-gradient(yellow,orange,rgb(218, 16, 117),purple);
+    width:100%;
+    padding-bottom:20px ;
+    padding-top: 20px;
+}
+
+#submit{
+    background-image: linear-gradient(yellow,orange);
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+#description{
+    color: rgb(253, 253, 253);
+    background-color: rgb(10, 10, 10);
+    font-size: 25px;    
+}
+
+#title{
+    color: rgb(248, 248, 248);
+    font-size: 40px;
+    background-color: rgb(8, 8, 8);
+}

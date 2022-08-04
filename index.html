@@ -1,0 +1,89 @@
+<!DOCTYPE 
+html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>DOM Form</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="title">Form</h1>
+            </div>
+            <p id="description">Survey Form</p>
+        </div>
+        <form id="form" >
+                    <div>Fisrt Name</div>                                                             
+                    <input type="text" id="first-name" name="name" required>
+                    <div>Last Name</div>
+                    <input type="text" id="last-name" name="name" required>
+                                           
+                    <div>Gender</div>
+                    <select name="" id="gender" class="custom-select" required>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    
+                    <div>Address</div>
+                    <div><input type="text" id="address" required></div>
+    
+                    <div>City</div>
+                    <div><input type="text" id="city" required></div>
+    
+                    <div>Pincode</div>
+                    <div><input type="text" id="pincode" required></div>
+    
+                    <div>State</div>
+                    <div><input type="text" id="state" required></div>
+    
+                    <div>Country</div>
+                    <div><input type="text" id="country" required></div>
+                    
+                    <div style="padding-bottom: 40px;">
+                        <h4>Choice of Food</h4>
+                        <label for="item1">Indian</label>
+                        <input type="checkbox" name="checkbox" value="Indian" onclick="checkboxcontrol()" ;>
+                        <label for="item2" class="pl-3">Italian</label>
+                        <input type="checkbox" name="checkbox" value="Italian" onclick="checkboxcontrol()" ;>
+                        <label for="item3" class="pl-3">Maxican</label>
+                        <input type="checkbox" name="checkbox" value="Maxican" onclick="checkboxcontrol()" ;>
+                        <label for="item2" class="pl-3">Chinese</label>
+                        <input type="checkbox" name="checkbox" value="Chinese" onclick="checkboxcontrol()" ;>
+                        <label for="item2" class="pl-3">Thai</label>
+                        <input type="checkbox" name="checkbox" value="Thai" onclick="checkboxcontrol()" ;>
+                    </div>            
+                    
+                    <button type="button" class="btn btn-primary btn-block" id="submit" onclick="myfunction()">Submit</button>
+                    
+                
+        </form>
+            </table>
+            <div class="col-6  text-center">
+    
+                <table style= border:3 id="myTable">
+    
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                        <td>Address</td>
+                        <td>Pincode</td>
+                        <td>Gender</td>
+                        <td>Food</td>
+                        <td>State</td>
+                        <td>Country</td>
+                    </tr>
+    
+                </table>
+            </div>
+        
+        <script src="script.js"></script>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    </div>         
+</body>
+</html>
